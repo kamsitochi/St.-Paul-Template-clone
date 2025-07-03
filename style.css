@@ -144,12 +144,13 @@ span>p {
     color: white;
     padding-top: 12rem;
     border: none;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 3rem;
 
 }
 
 .template-1 {
-    margin-top: 7rem;
+    margin-top: 14rem;
     font-size: 2.3rem;
     font-family: Poppins, sans-serif;
 }
