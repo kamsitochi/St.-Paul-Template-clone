@@ -65,7 +65,34 @@ span>p {
     margin-left: 8rem;
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:973px) {
+    nav {
+        display: flex;
+        background-color: white;
+        width: 100%;
+        position: fixed;
+        padding: 0.7rem 0rem;
+        align-items: center;
+        font-family: poppins, sans-serif;
+        top: 0;
+    }
+
+    .let {
+        display: flex;
+        list-style-type: none;
+        margin-left: 1rem;
+        font-size: 12px;
+
+    }
+
+    .buttlink {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:656px) {
     nav {
         display: flex;
         flex-direction: column;
