@@ -175,6 +175,20 @@ span>p {
     font-size: 1.5rem;
     font-family: Poppins, sans-serif;
 }
+
+.template {
+    background-image: url(./Asset/background34.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    text-align: center;
+    color: white;
+    padding-top: 12rem;
+    border: none;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+padding-left: 1rem;
+padding-right: 1rem;
 }
 .state {
     text-align: center;
