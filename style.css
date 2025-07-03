@@ -169,6 +169,13 @@ span>p {
     border-radius: 3px;
 }
 
+@media screen and (max-width:430px ) {
+     .template-1 {
+    margin-top: 14rem;
+    font-size: 2rem;
+    font-family: Poppins, sans-serif;
+}
+}
 .state {
     text-align: center;
     margin-top: 4rem;
