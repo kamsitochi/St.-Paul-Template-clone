@@ -239,6 +239,16 @@ span>p {
         flex-wrap: wrap;
         padding: 1.5rem;
     }
+
+    .trent {
+        border: none;
+        /* width: 100%; */
+        text-align: center;
+        height: 45vh;
+        font-family: Source Sans Pro, sans-serif;
+        padding: 0rem 0;
+    }
+
 }
 
 @media screen and (max-width:655px) {
