@@ -308,18 +308,19 @@ span>p {
         padding: 2rem 3rem;
         color: white;
         font-size: 20px;
-margin-top:6rem;
+        margin-top: 6rem;
 
     }
 
     .block-2 {
         font-family: Crimson Text;
-margin: 0rem;
+        margin: 0rem;
+        padding: 1rem 0rem;
     }
 
     .block-3 {
         border-left: none;
-        padding:0rem;
+        padding: 0rem;
     }
 
 }
