@@ -237,7 +237,7 @@ span>p {
     .flex-container {
         display: flex;
         flex-wrap: wrap;
-        padding:1.5rem;
+        padding: 1.5rem;
     }
 }
 
@@ -260,30 +260,26 @@ span>p {
 
 
 
-
-
-
-
-
 .block {
     background-color: rgb(199, 58, 58);
     padding: 3rem;
     color: white;
     display: flex;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 19px;
 
 }
 
 .block-3 {
     border-left: 2px solid white;
     padding-left: 2rem;
+    font-size: 16px;
 }
 
 .block-2 {
-    display: flex;
     font-family: Crimson Text;
-
+    display: flex;
+    margin-left: 2rem;
 }
 
 .read {
@@ -301,12 +297,64 @@ span>p {
     color: rgb(199, 58, 58);
 }
 
+/* media qeary for..... */
+
+@media screen and (max-width:804px) {
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(199, 58, 58);
+        padding: 2rem 3rem;
+        color: white;
+        font-size: 20px;
+margin-top:6rem;
+
+    }
+
+    .block-2 {
+        font-family: Crimson Text;
+margin: 0rem;
+    }
+
+    .block-3 {
+        border-left: none;
+        padding:0rem;
+    }
+
+}
+
+
+@media screen and (max-width:452px) {
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(199, 58, 58);
+        padding: 3rem;
+        color: white;
+        font-size: 20px;
+
+
+    }
+
+    .block-2 {
+        font-family: Crimson Text;
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+
+    .block-3 {
+        border-left: none;
+        padding-left: 0rem;
+    }
+
+}
+
 .count {
     background-color: rgb(235, 234, 234);
     padding: 5rem 2rem 5rem 7rem;
     display: flex;
-
-
 }
 
 .count-1 {
